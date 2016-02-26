@@ -1,4 +1,5 @@
 # Welcome to the most strict eslint config ever
+[![npm version](https://badge.fury.io/js/eslint-config-valorsoft.svg)](http://badge.fury.io/js/eslint-config-valorsoft) [![npm downloads](https://img.shields.io/npm/dm/eslint-config-valorsoft.svg)](https://npmjs.org/eslint-config-valorsoft)
 [![Build Status](https://travis-ci.org/valor-software/eslint-config-valorsoft.svg?branch=master)](https://travis-ci.org/valor-software/eslint-config-valorsoft)
 [![Dependency Status](https://david-dm.org/valor-software/eslint-config-valorsoft.svg)](https://david-dm.org/valor-software/eslint-config-valorsoft)
 [![devDependency Status](https://david-dm.org/valor-software/eslint-config-valorsoft/dev-status.svg)](https://david-dm.org/valor-software/eslint-config-valorsoft#info=devDependencies)
