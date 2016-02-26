@@ -1,4 +1,7 @@
 # Welcome to the most strict eslint config ever
+[![Build Status](https://travis-ci.org/valor-software/eslint-config-valorsoft.svg?branch=master)](https://travis-ci.org/valor-software/eslint-config-valorsoft)
+[![Dependency Status](https://david-dm.org/valor-software/eslint-config-valorsoft.svg)](https://david-dm.org/valor-software/eslint-config-valorsoft)
+[![devDependency Status](https://david-dm.org/valor-software/eslint-config-valorsoft/dev-status.svg)](https://david-dm.org/valor-software/eslint-config-valorsoft#info=devDependencies)
 
 ## Philosophy
 - contains all rules
