@@ -18,20 +18,20 @@
 - `id-match` - not found any particular use of this rule, `camelCase` is enough
 - `jsx-quotes` - I don't use jsx so I don't care
 - `no-plusplus` - why not `++`? It's nice to use when you know what you are doing
-- `no-restricted-syntax` - duplicates `no-with` and `no`
-- `no-ternary` - why not? but nested ternary please
+- `no-restricted-syntax` - duplicates `no-with` and disabled functional expressions
+- `no-ternary` - why not? but not nested ternary please
 - `require-jsdoc`- nice thing, but hard to follow
-- `spaced-comment` - nice for meaningful comments, but hard to argue when you commenting peaces of code
+- `spaced-comment` - nice for meaningful comments, bad for quick code commenting
 - `wrap-regex` - no need
 
 ## What is tweaked
-- `dot-location` - `property` mode enabled
-- `eqeqeq` - `smart` mode enabled
-- `no-implicit-coercion` - boolean implicit coercion enabled
-- `no-use-before-define` - usage of `function` declarations before usage are allowed
-- `no-mixed-requires`- `grouping` and `allowCall` checks enabled
-- `func-style` - `declaration` only please
 - `indent` - 2 spaces rulezzz!
+- `eqeqeq` - `smart` mode enabled
+- `dot-location` - `property` mode enabled
+- `no-implicit-coercion` - boolean implicit coercion enabled
+- `func-style` - `declaration` only please
+- `no-use-before-define` - usage of `function` before declarations are allowed
+- `no-mixed-requires`- `grouping` and `allowCall` checks enabled
 - `linebreak-style` - unix only
 - `one-var` - `never` use one `var|let|const` per block
 - `padded-blocks` - `never` add useless padding
