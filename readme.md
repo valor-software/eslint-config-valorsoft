@@ -27,6 +27,8 @@
 
 ## What is tweaked
 - `indent` - 2 spaces rulezzz!
+- `max-len` - extended to 120 chars
+- `newline-per-chained-call` - extended `ignoreChainWithDepth` to 3
 - `eqeqeq` - `smart` mode enabled
 - `dot-location` - `property` mode enabled
 - `no-implicit-coercion` - boolean implicit coercion enabled
@@ -37,6 +39,7 @@
 - `one-var` - `never` use one `var|let|const` per block
 - `padded-blocks` - `never` add useless padding
 - `quote-props` - quote properties only `as-needed` and `keywords`
+- `no-magic-numbers` - enabled `ignoreArrayIndexes` and `enforceConst`
 
 ## Contribution
 - what I really appreciate is configs for IDEs
