@@ -24,6 +24,7 @@
 - `require-jsdoc`- nice thing, but hard to follow
 - `spaced-comment` - nice for meaningful comments, bad for quick code commenting
 - `wrap-regex` - no need
+- `prefer-reflect` - compatibility is to low to use
 
 ## What is tweaked
 - `indent` - 2 spaces rulezzz!
