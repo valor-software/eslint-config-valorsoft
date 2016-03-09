@@ -13,6 +13,20 @@
 - anywhere
 - for tests better to add `env:"node"` and disable `newline-per-chained-call` rule
 
+## How to use
+- install latest `npm`
+  ``` bash
+  $(sudo) npm install -g npm@latest
+  ```
+- add task `eslint` to `package.json` `script` section
+  ```
+  "eslint": "./node_modules/.bin/eslint --ignore-path .gitignore  --ext js --fix . .config",
+  ```
+- add linting to tests step `scripts` `package.json` section
+  ```
+  "test": "npm run eslint && ..."
+  ```
+
 ## What is disabled
 - `no-eq-null` - duplicates `eqeqeq:smart`
 - `no-restricted-imports`, `no-restricted-modules` - dependant on project requirements
