@@ -29,7 +29,7 @@
 
 ## What is disabled
 - `no-eq-null` - duplicates `eqeqeq:smart`
-- `no-restricted-imports`, `no-restricted-modules` - dependant on project requirements
+- `no-restricted-imports`, `no-restricted-modules`, `no-restricted-globals` - dependant on project requirements
 - `id-match` - not found any particular use of this rule, `camelCase` is enough
 - `jsx-quotes` - I don't use jsx so I don't care
 - `no-plusplus` - why not `++`? It's nice to use when you know what you are doing
@@ -39,6 +39,7 @@
 - `spaced-comment` - nice for meaningful comments, bad for quick code commenting
 - `wrap-regex` - no need
 - `prefer-reflect` - compatibility is to low to use
+- `newline-before-return` - TBD
 
 ## What is tweaked
 - `indent` - 2 spaces rulezzz!
