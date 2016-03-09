@@ -23,9 +23,19 @@
   "eslint": "./node_modules/.bin/eslint --ignore-path .gitignore  --ext js --fix . .config",
   ```
 - add linting to tests step `scripts` `package.json` section
-  ```
+  ```bash
   "test": "npm run eslint && ..."
   ```
+- create `.eslintrc.json` near to you `package.json` with the following content
+  ```json
+  {
+    "extends": "./node_modules/eslint-config-valorsoft/.eslintrc",
+    "env": {
+      "node": true
+    }
+  }
+  ```
+- run `npm t` to check that all is working correctly
 
 ## What is disabled
 - `no-eq-null` - duplicates `eqeqeq:smart`
