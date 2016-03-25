@@ -65,7 +65,7 @@
 - `one-var` - `never` use one `var|let|const` per block
 - `padded-blocks` - `never` add useless padding
 - `quote-props` - quote properties only `as-needed` and `keywords`
-- `no-magic-numbers` - enabled `ignoreArrayIndexes` and `enforceConst`
+- `no-magic-numbers` - `ignore` `-1,0,1` as most often used numbers and `ignoreArrayIndexes`, `enforceConst` are enabled
 
 ## Contribution
 - what I really appreciate is configs for IDEs
