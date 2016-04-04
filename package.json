@@ -4,11 +4,13 @@
   "description": "Valor Software's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {
-    "changelog": "./node_modules/.bin/conventional-changelog -i CHANGELOG.md -s -p angular",
-    "github-release": "conventional-github-releaser -p angular -r 0",
-    "postversion": "git push origin master && git push --tags",
-    "test": "npm run lint && ./node_modules/.bin/mocha",
-    "lint": "./node_modules/.bin/eslint --ignore-path .gitignore  --ext js --fix . .config"
+    "flow.changelog": "./node_modules/.bin/conventional-changelog -i CHANGELOG.md -s -p angular -v",
+    "flow.github-release": "./node_modules/.bin/conventional-github-releaser -p angular",
+    "flow.lint": "./node_modules/.bin/eslint --ignore-path .gitignore  --ext js --fix . .config",
+    "test": "npm run flow.lint && ./node_modules/.bin/mocha",
+    "preversion": "npm test",
+    "version": "npm run flow.changelog && git add -A",
+    "postversion": "git push origin master && git push --tags"
   },
   "repository": {
     "type": "git",
@@ -30,7 +32,7 @@
   },
   "homepage": "https://github.com/valor-software/eslint-config-valorsoft#readme",
   "dependencies": {
-    "eslint": "2.4.0"
+    "eslint": "2.6.0"
   },
   "devDependencies": {
     "chai": "3.5.0",
