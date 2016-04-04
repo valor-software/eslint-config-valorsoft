@@ -5,7 +5,7 @@ const path = require('path');
 const expect = require('chai').expect;
 const stripComments = require('strip-json-comments');
 
-const config = JSON.parse(stripComments(readFile('.eslintrc')));
+const config = JSON.parse(stripComments(readFile('.eslintrc.json')));
 const rulesInConfig = Object.keys(config.rules);
 const rulesInEslint = fs.readdirSync('./node_modules/eslint/lib/rules');
 

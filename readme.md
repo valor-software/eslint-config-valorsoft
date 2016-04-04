@@ -29,7 +29,7 @@
 - create `.eslintrc.json` near to you `package.json` with the following content
   ```json
   {
-    "extends": "./node_modules/eslint-config-valorsoft/.eslintrc",
+    "extends": "./node_modules/eslint-config-valorsoft/.eslintrc.json",
     "env": {
       "node": true
     }
