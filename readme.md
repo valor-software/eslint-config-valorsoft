@@ -54,6 +54,7 @@
 ## What is tweaked
 - `indent` - 2 spaces rulezzz!
 - `max-len` - extended to 120 chars
+- `consistent-this` - use `self` alias for `this`
 - `newline-per-chained-call` - extended `ignoreChainWithDepth` to 3
 - `eqeqeq` - `smart` mode enabled
 - `dot-location` - `property` mode enabled
