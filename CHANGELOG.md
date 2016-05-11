@@ -1,3 +1,19 @@
+<a name="0.0.11"></a>
+## [0.0.11](https://github.com/valor-software/eslint-config-valorsoft/compare/v0.0.9...v0.0.11) (2016-05-11)
+
+
+### Bug Fixes
+
+* **eslint:** .eslintrc renamed to .eslintrc.json ([e6e05ac](https://github.com/valor-software/eslint-config-valorsoft/commit/e6e05ac))
+
+
+### Features
+
+* **eslint:** eslint rules updated to v2.6.0 ([3ac6628](https://github.com/valor-software/eslint-config-valorsoft/commit/3ac6628))
+* **package:** updated to eslint 2.9 ([413337f](https://github.com/valor-software/eslint-config-valorsoft/commit/413337f))
+
+
+
 <a name="0.0.10"></a>
 ## [0.0.10](https://github.com/valor-software/eslint-config-valorsoft/compare/v0.0.5...v0.0.10) (2016-04-04)
 
