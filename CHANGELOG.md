@@ -1,3 +1,13 @@
+<a name="0.0.12"></a>
+## [0.0.12](https://github.com/valor-software/eslint-config-valorsoft/compare/v0.0.11...v0.0.12) (2016-05-17)
+
+
+### Features
+
+* **package:** updated to eslint 2.10.2 & enabled object-property-newline rule ([26e9713](https://github.com/valor-software/eslint-config-valorsoft/commit/26e9713))
+
+
+
 <a name="0.0.11"></a>
 ## [0.0.11](https://github.com/valor-software/eslint-config-valorsoft/compare/v0.0.9...v0.0.11) (2016-05-11)
 
