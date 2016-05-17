@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-valorsoft",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Valor Software's ESLint config, following our styleguide",
   "main": "index.js",
   "scripts": {

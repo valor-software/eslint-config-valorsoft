@@ -1,3 +1,13 @@
+<a name="0.0.13"></a>
+## [0.0.13](https://github.com/valor-software/eslint-config-valorsoft/compare/v0.0.12...v0.0.13) (2016-05-17)
+
+
+### Bug Fixes
+
+* **object-property-newline:** enabled allowMultiplePropertiesPerLine ([82203d7](https://github.com/valor-software/eslint-config-valorsoft/commit/82203d7))
+
+
+
 <a name="0.0.12"></a>
 ## [0.0.12](https://github.com/valor-software/eslint-config-valorsoft/compare/v0.0.11...v0.0.12) (2016-05-17)
 
