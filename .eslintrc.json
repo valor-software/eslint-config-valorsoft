@@ -25,6 +25,7 @@
     "no-irregular-whitespace": 2,
     "no-negated-in-lhs": 2,
     "no-obj-calls": 2,
+    "no-prototype-builtins": 2,
     "no-regex-spaces": 2,
     "no-sparse-arrays": 2,
     "no-unexpected-multiline": 2,
@@ -116,6 +117,7 @@
     "no-useless-call": 2,
     "no-useless-concat": 2,
     "no-useless-escape": 2,
+    "no-useless-rename": 2,
     "no-void": 2,
     "no-warning-comments": 1,
     "no-with": 2,
@@ -269,6 +271,7 @@
     "space-infix-ops": 2,
     "space-unary-ops": 2,
     "spaced-comment": 0,
+    "unicode-bom": [2, "never"],
     "wrap-regex": 0,
     // ECMAScript 6
     "arrow-body-style": 2,
