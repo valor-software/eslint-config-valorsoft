@@ -1,3 +1,13 @@
+<a name="0.0.15"></a>
+## [0.0.15](https://github.com/valor-software/eslint-config-valorsoft/compare/v0.0.14...v0.0.15) (2016-05-30)
+
+
+### Features
+
+* **package:** added eslint 2.11.0 rules ([06ca550](https://github.com/valor-software/eslint-config-valorsoft/commit/06ca550))
+
+
+
 <a name="0.0.14"></a>
 ## [0.0.14](https://github.com/valor-software/eslint-config-valorsoft/compare/v0.0.13...v0.0.14) (2016-05-19)
 
