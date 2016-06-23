@@ -198,6 +198,7 @@
       2,
       120
     ],
+    "max-lines": ["error", {"max": 300, "skipComments": true, "skipBlankLines": true}],
     "max-nested-callbacks": 2,
     "max-params": 2,
     "max-statements": 2,
@@ -217,6 +218,7 @@
     "no-continue": 2,
     "no-inline-comments": 2,
     "no-lonely-if": 2,
+    "no-mixed-operators": [2, {"allowSamePrecedence": true}],
     "no-mixed-spaces-and-tabs": 2,
     "no-multiple-empty-lines": 2,
     "no-negated-condition": 2,
@@ -230,6 +232,7 @@
     "no-underscore-dangle": 2,
     "no-unneeded-ternary": 2,
     "no-whitespace-before-property": 2,
+    "object-curly-newline": [2, {"multiline": true}],
     "object-curly-spacing": 2,
     "object-property-newline": [2, { "allowMultiplePropertiesPerLine": true }],
     "one-var": [
@@ -300,6 +303,7 @@
     "prefer-spread": 2,
     "prefer-template": 2,
     "require-yield": 2,
+    "rest-spread-spacing": [2, "always"],
     "template-curly-spacing": 2,
     "yield-star-spacing": 2
   }
