@@ -1,3 +1,13 @@
+<a name="0.0.16"></a>
+## [0.0.16](https://github.com/valor-software/eslint-config-valorsoft/compare/v0.0.15...v0.0.16) (2016-06-23)
+
+
+### Features
+
+* **package:** updated to eslint 2.13.1 ([7ff4723](https://github.com/valor-software/eslint-config-valorsoft/commit/7ff4723))
+
+
+
 <a name="0.0.15"></a>
 ## [0.0.15](https://github.com/valor-software/eslint-config-valorsoft/compare/v0.0.14...v0.0.15) (2016-05-30)
 
