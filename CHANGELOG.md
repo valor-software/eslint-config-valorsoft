@@ -1,3 +1,23 @@
+<a name="0.1.0"></a>
+# [0.1.0](https://github.com/valor-software/eslint-config-valorsoft/compare/v0.0.10...v0.1.0) (2016-07-09)
+
+
+### Bug Fixes
+
+* **config:** ignore lodash in id-length rule ([3107031](https://github.com/valor-software/eslint-config-valorsoft/commit/3107031))
+* **object-property-newline:** enabled allowMultiplePropertiesPerLine ([82203d7](https://github.com/valor-software/eslint-config-valorsoft/commit/82203d7))
+
+
+### Features
+
+* **package:** added eslint 2.11.0 rules ([06ca550](https://github.com/valor-software/eslint-config-valorsoft/commit/06ca550))
+* **package:** eslint updated to 3.0.1 ([7fa6151](https://github.com/valor-software/eslint-config-valorsoft/commit/7fa6151))
+* **package:** updated to eslint 2.10.2 & enabled object-property-newline rule ([26e9713](https://github.com/valor-software/eslint-config-valorsoft/commit/26e9713))
+* **package:** updated to eslint 2.13.1 ([7ff4723](https://github.com/valor-software/eslint-config-valorsoft/commit/7ff4723))
+* **package:** updated to eslint 2.9 ([413337f](https://github.com/valor-software/eslint-config-valorsoft/commit/413337f))
+
+
+
 <a name="0.0.16"></a>
 ## [0.0.16](https://github.com/valor-software/eslint-config-valorsoft/compare/v0.0.15...v0.0.16) (2016-06-23)
 
