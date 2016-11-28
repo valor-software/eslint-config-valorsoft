@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/valor-software/eslint-config-valorsoft#readme",
   "dependencies": {
-    "eslint": "3.0.1"
+    "eslint": "3.11.1"
   },
   "devDependencies": {
     "chai": "3.5.0",
